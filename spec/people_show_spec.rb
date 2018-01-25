@@ -5,7 +5,7 @@ describe "Our Person Show Route" do
   
   before (:all) do
     @person = Person.create(first_name: "Miss", last_name: "Piggy", birthdate: DateTime.now.utc - 40.years )
-    @birth_path_num = Person.get_birth_path_num(@person.birthdate.strftime("%m%d%Y"))
+    @birth_path_num = Person.get_birthpath_number(@person.birthdate.strftime("%m%d%Y"))
   end
 
   after (:all) do

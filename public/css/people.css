@@ -1,0 +1,16 @@
+h1 {
+	text-align: center;
+	margin: 20px auto;
+}
+
+input, label {
+	margin: 2.5px 0;
+}
+
+p {
+	margin: 2.5px 0;
+}
+
+.errors {
+	color: red;
+}
